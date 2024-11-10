@@ -1,0 +1,20 @@
+E:\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\obj\Debug\DotNetLab1.csproj.AssemblyReference.cache
+E:\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\obj\Debug\DotNetLab1.csproj.CoreCompileInputs.cache
+E:\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\bin\Debug\DotNetLab1.exe.config
+E:\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\bin\Debug\DotNetLab1.exe
+E:\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\bin\Debug\DotNetLab1.pdb
+E:\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\bin\Debug\ClassLibrary.dll
+E:\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\bin\Debug\ClassLibrary.pdb
+E:\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\obj\Debug\DotNetLab1.csproj.Up2Date
+E:\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\obj\Debug\DotNetLab1.exe
+E:\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\obj\Debug\DotNetLab1.pdb
+E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\bin\Debug\DotNetLab1.exe.config
+E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\bin\Debug\DotNetLab1.exe
+E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\bin\Debug\DotNetLab1.pdb
+E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\bin\Debug\ClassLibrary.dll
+E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\bin\Debug\ClassLibrary.pdb
+E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\obj\Debug\DotNetLab1.csproj.AssemblyReference.cache
+E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\obj\Debug\DotNetLab1.csproj.CoreCompileInputs.cache
+E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\obj\Debug\DotNetLab1.csproj.Up2Date
+E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\obj\Debug\DotNetLab1.exe
+E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\obj\Debug\DotNetLab1.pdb

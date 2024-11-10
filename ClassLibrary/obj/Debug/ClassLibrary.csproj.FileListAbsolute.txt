@@ -1,0 +1,12 @@
+E:\Visual Studio\DotNet\DotNet Lab1_Хоменко\ClassLibrary\bin\Debug\ClassLibrary.dll
+E:\Visual Studio\DotNet\DotNet Lab1_Хоменко\ClassLibrary\bin\Debug\ClassLibrary.pdb
+E:\Visual Studio\DotNet\DotNet Lab1_Хоменко\ClassLibrary\obj\Debug\ClassLibrary.csproj.AssemblyReference.cache
+E:\Visual Studio\DotNet\DotNet Lab1_Хоменко\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+E:\Visual Studio\DotNet\DotNet Lab1_Хоменко\ClassLibrary\obj\Debug\ClassLibrary.dll
+E:\Visual Studio\DotNet\DotNet Lab1_Хоменко\ClassLibrary\obj\Debug\ClassLibrary.pdb
+E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\ClassLibrary\bin\Debug\ClassLibrary.dll
+E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\ClassLibrary\bin\Debug\ClassLibrary.pdb
+E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\ClassLibrary\obj\Debug\ClassLibrary.csproj.AssemblyReference.cache
+E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\ClassLibrary\obj\Debug\ClassLibrary.dll
+E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\ClassLibrary\obj\Debug\ClassLibrary.pdb
