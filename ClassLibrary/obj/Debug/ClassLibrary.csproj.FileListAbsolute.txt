@@ -10,3 +10,9 @@ E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet La
 E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
 E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\ClassLibrary\obj\Debug\ClassLibrary.dll
 E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\koshk\source\repos\Refactors-repository\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\koshk\source\repos\Refactors-repository\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\koshk\source\repos\Refactors-repository\ClassLibrary\obj\Debug\ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\koshk\source\repos\Refactors-repository\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\koshk\source\repos\Refactors-repository\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\koshk\source\repos\Refactors-repository\ClassLibrary\obj\Debug\ClassLibrary.pdb

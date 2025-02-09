@@ -18,3 +18,13 @@ E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet La
 E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\obj\Debug\DotNetLab1.csproj.Up2Date
 E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\obj\Debug\DotNetLab1.exe
 E:\1Житомирська політехніка\Visual Studio\DotNet\DotNet Lab1_Хоменко\DotNetLab1\obj\Debug\DotNetLab1.pdb
+C:\Users\koshk\source\repos\Refactors-repository\DotNetLab1\bin\Debug\DotNetLab1.exe.config
+C:\Users\koshk\source\repos\Refactors-repository\DotNetLab1\bin\Debug\DotNetLab1.exe
+C:\Users\koshk\source\repos\Refactors-repository\DotNetLab1\bin\Debug\DotNetLab1.pdb
+C:\Users\koshk\source\repos\Refactors-repository\DotNetLab1\bin\Debug\ClassLibrary.dll
+C:\Users\koshk\source\repos\Refactors-repository\DotNetLab1\bin\Debug\ClassLibrary.pdb
+C:\Users\koshk\source\repos\Refactors-repository\DotNetLab1\obj\Debug\DotNetLab1.csproj.AssemblyReference.cache
+C:\Users\koshk\source\repos\Refactors-repository\DotNetLab1\obj\Debug\DotNetLab1.csproj.CoreCompileInputs.cache
+C:\Users\koshk\source\repos\Refactors-repository\DotNetLab1\obj\Debug\DotNetLab1.csproj.Up2Date
+C:\Users\koshk\source\repos\Refactors-repository\DotNetLab1\obj\Debug\DotNetLab1.exe
+C:\Users\koshk\source\repos\Refactors-repository\DotNetLab1\obj\Debug\DotNetLab1.pdb
