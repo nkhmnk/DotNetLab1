@@ -50,19 +50,36 @@ namespace DotNetLab1
 
         private static Account AuthenticateUser() //вхід
         {
-            string cardNumber = ReadValidCardNumber("Введіть номер картки: ");
-            string pinCode = ReadValidPinCode("Введіть PIN: ");
-            
-            try
+            int attempts = 0; // Лічильник невдалих спроб
+            const int maxAttempts = 3; // Максимальна кількість спроб
+
+            while (attempts < maxAttempts)
             {
-                return Operations.Authenticate(cardNumber, pinCode);
+                string cardNumber = ReadValidCardNumber("Введіть номер картки: ");
+                string pinCode = ReadValidPinCode("Введіть PIN: ");
+
+                try
+                {
+                    return Operations.Authenticate(cardNumber, pinCode);
+                }
+                catch (Exception ex)
+                {
+                    attempts++;
+                    Console.WriteLine($"Помилка. {ex.Message}");
+
+                    if (attempts >= maxAttempts)
+                    {
+                        Console.WriteLine("Досягнуто максимальної кількості спроб. Спробуйте пізніше.");
+                        return null;
+                    }
+
+                    Console.WriteLine($"Залишилось спроб: {maxAttempts - attempts}");
+                }
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Помилка. {ex.Message}");
-                return null;
-            }
+
+            return null; // Повертаємо null, якщо всі спроби не вдалися
         }
+
 
         private static string ReadValidCardNumber(string prompt) // зчитування та перевірка номеру картки
         {
