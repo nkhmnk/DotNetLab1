@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\koshk\\source\\repos\\Refactors-repository\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|C:\\Users\\koshk\\source\\repos\\Refactors-repository\\classlibrary\\operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|c:\\users\\koshk\\source\\repos\\refactors-repository\\classlibrary\\usermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\usermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4966B166-AD9D-4275-B3FC-C935A2AE7B9B}|DotNetLab1\\DotNetLab1.csproj|c:\\users\\koshk\\source\\repos\\refactors-repository\\dotnetlab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4966B166-AD9D-4275-B3FC-C935A2AE7B9B}|DotNetLab1\\DotNetLab1.csproj|C:\\Users\\koshk\\source\\repos\\Refactors-repository\\dotnetlab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4966B166-AD9D-4275-B3FC-C935A2AE7B9B}|DotNetLab1\\DotNetLab1.csproj|solutionrelative:dotnetlab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|C:\\Users\\koshk\\source\\repos\\Refactors-repository\\classlibrary\\usermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\usermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|C:\\Users\\koshk\\source\\repos\\Refactors-repository\\classlibrary\\automatedtellermachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\automatedtellermachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|C:\\Users\\koshk\\source\\repos\\Refactors-repository\\classlibrary\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E4A630E8-6636-46B5-8C84-B07EEAAA78EA}|WPF_ATM\\WpfATMApp.csproj|C:\\Users\\koshk\\source\\repos\\Refactors-repository\\wpf_atm\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E4A630E8-6636-46B5-8C84-B07EEAAA78EA}|WPF_ATM\\WpfATMApp.csproj|solutionrelative:wpf_atm\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|C:\\Users\\koshk\\source\\repos\\Refactors-repository\\classlibrary\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|C:\\Users\\koshk\\source\\repos\\Refactors-repository\\classlibrary\\automatedtellermachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\automatedtellermachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|C:\\Users\\koshk\\source\\repos\\Refactors-repository\\classlibrary\\operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,28 +54,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\koshk\\source\\repos\\Refactors-repository\\WPF_ATM\\App.xaml",
+              "RelativeDocumentMoniker": "WPF_ATM\\App.xaml",
+              "ToolTip": "C:\\Users\\koshk\\source\\repos\\Refactors-repository\\WPF_ATM\\App.xaml",
+              "RelativeToolTip": "WPF_ATM\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-09T13:52:04.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "UserMenu.cs",
               "DocumentMoniker": "C:\\Users\\koshk\\source\\repos\\Refactors-repository\\ClassLibrary\\UserMenu.cs",
               "RelativeDocumentMoniker": "ClassLibrary\\UserMenu.cs",
               "ToolTip": "C:\\Users\\koshk\\source\\repos\\Refactors-repository\\ClassLibrary\\UserMenu.cs",
               "RelativeToolTip": "ClassLibrary\\UserMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAUwE4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T12:35:25.924Z"
+              "WhenOpened": "2025-02-09T12:35:25.924Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Operations.cs",
               "DocumentMoniker": "C:\\Users\\koshk\\source\\repos\\Refactors-repository\\ClassLibrary\\Operations.cs",
               "RelativeDocumentMoniker": "ClassLibrary\\Operations.cs",
               "ToolTip": "C:\\Users\\koshk\\source\\repos\\Refactors-repository\\ClassLibrary\\Operations.cs",
               "RelativeToolTip": "ClassLibrary\\Operations.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAcwCMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T11:35:38.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T11:35:38.914Z"
             },
             {
               "$type": "Document",
@@ -81,31 +96,33 @@
               "RelativeDocumentMoniker": "ClassLibrary\\Bank.cs",
               "ToolTip": "C:\\Users\\koshk\\source\\repos\\Refactors-repository\\ClassLibrary\\Bank.cs",
               "RelativeToolTip": "ClassLibrary\\Bank.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAmwDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T11:35:22.468Z"
+              "WhenOpened": "2025-02-09T11:35:22.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "AutomatedTellerMachine.cs",
               "DocumentMoniker": "C:\\Users\\koshk\\source\\repos\\Refactors-repository\\ClassLibrary\\AutomatedTellerMachine.cs",
               "RelativeDocumentMoniker": "ClassLibrary\\AutomatedTellerMachine.cs",
               "ToolTip": "C:\\Users\\koshk\\source\\repos\\Refactors-repository\\ClassLibrary\\AutomatedTellerMachine.cs",
               "RelativeToolTip": "ClassLibrary\\AutomatedTellerMachine.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAkwC0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T11:35:07.466Z"
+              "WhenOpened": "2025-02-09T11:35:07.466Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Users\\koshk\\source\\repos\\Refactors-repository\\ClassLibrary\\Account.cs",
               "RelativeDocumentMoniker": "ClassLibrary\\Account.cs",
               "ToolTip": "C:\\Users\\koshk\\source\\repos\\Refactors-repository\\ClassLibrary\\Account.cs",
               "RelativeToolTip": "ClassLibrary\\Account.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAADwvz8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T11:34:08.313Z"
             },
@@ -117,7 +134,7 @@
               "RelativeDocumentMoniker": "DotNetLab1\\Program.cs",
               "ToolTip": "C:\\Users\\koshk\\source\\repos\\Refactors-repository\\DotNetLab1\\Program.cs",
               "RelativeToolTip": "DotNetLab1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T11:31:10.828Z",
               "EditorCaption": ""

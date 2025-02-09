@@ -143,45 +143,55 @@ namespace DotNetLab1
         private void ProcessTransaction(Account account, Action<Account, decimal> transactionMethod, string prompt)
         {
             Console.Write(prompt);
-            if (decimal.TryParse(Console.ReadLine()?.Trim(), out decimal amount) && amount > 0)
-            {
-                try
-                {
-                    transactionMethod(account, amount);
-                    Console.WriteLine("Операція пройшла успішно.");
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"Сталася помилка: {ex.Message}");
-                }
-            }
-            else
+            string input = Console.ReadLine()?.Trim();
+            bool isValidAmount = decimal.TryParse(input, out decimal amount) && amount > 0;
+
+            if (!isValidAmount)
             {
                 Console.WriteLine("Невірна сума");
+                return;
+            }
+
+            try
+            {
+                transactionMethod(account, amount);
+                Console.WriteLine("Операція пройшла успішно.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Сталася помилка: {ex.Message}");
             }
         }
 
+
         private void TransferMoney(Account account)
         {
-            string recipientCardNumber = PromptInput("Введіть номер картки отримувача: ", operations.IsValidCardNumber, "Неправильний номер картки");
+            string recipientCardNumber = PromptInput(
+                "Введіть номер картки отримувача: ",
+                operations.IsValidCardNumber,
+                "Неправильний номер картки"
+            );
+
             Console.Write("Введіть суму для переказу: ");
-            if (decimal.TryParse(Console.ReadLine()?.Trim(), out decimal amount) && amount > 0)
-            {
-                try
-                {
-                    operations.Transfer(account, recipientCardNumber, amount);
-                    Console.WriteLine("Переказ пройшов успішно");
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"Помилка. {ex.Message}");
-                }
-            }
-            else
+            string input = Console.ReadLine()?.Trim();
+
+            if (!decimal.TryParse(input, out decimal amount) || amount <= 0)
             {
                 Console.WriteLine("Невірна сума");
+                return;
+            }
+
+            try
+            {
+                operations.Transfer(account, recipientCardNumber, amount);
+                Console.WriteLine("Переказ пройшов успішно");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Помилка. {ex.Message}");
             }
         }
+
 
         private void RegisterAccount()
         {
