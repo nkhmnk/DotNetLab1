@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace ClassLibrary
 {
     public class Operations
@@ -18,15 +17,8 @@ namespace ClassLibrary
         // вхід
         public Account Authenticate(string cardNumber, string pinCode)
         {
-            if (!IsValidCardNumber(cardNumber))
-            {
-                throw new ArgumentException("Невірний формат номера картки! Номер картки повинен складатися з 6 цифр.");
-            }
-
-            if (!IsValidPin(pinCode))
-            {
-                throw new ArgumentException("Невірний формат PIN-коду! PIN повинен складатися з 4 цифр.");
-            }
+            ValidateCardNumberFormat(cardNumber);
+            ValidatePinCodeFormat(pinCode);
 
             Account account = bank.GetAccountByCardNumber(cardNumber);
             if (account != null && account.Authenticate(pinCode))
@@ -70,10 +62,7 @@ namespace ClassLibrary
         // переказ
         public void Transfer(Account sender, string recipientCardNumber, decimal amount)
         {
-            if (!IsValidCardNumber(recipientCardNumber))
-            {
-                throw new ArgumentException("Невірний формат номера картки отримувача.");
-            }
+            ValidateCardNumberFormat(recipientCardNumber);
 
             Account recipientAccount = bank.GetAccountByCardNumber(recipientCardNumber);
             if (recipientAccount == null)
@@ -92,15 +81,8 @@ namespace ClassLibrary
         // реєстрація
         public void RegisterAccount(string ownerName, string cardNumber, string pinCode, decimal initialBalance)
         {
-            if (!IsValidCardNumber(cardNumber))
-            {
-                throw new ArgumentException("Невірний формат номера картки! Номер картки повинен складатися з 6 цифр.");
-            }
-
-            if (!IsValidPin(pinCode))
-            {
-                throw new ArgumentException("Невірний формат PIN-коду! PIN повинен складатися з 4 цифр.");
-            }
+            ValidateCardNumberFormat(cardNumber);
+            ValidatePinCodeFormat(pinCode);
 
             if (initialBalance < 0)
             {
@@ -111,7 +93,23 @@ namespace ClassLibrary
             bank.Accounts.Add(newAccount);
         }
 
+        // перевірка формату картки
+        private void ValidateCardNumberFormat(string cardNumber)
+        {
+            if (!IsValidCardNumber(cardNumber))
+            {
+                throw new ArgumentException("Невірний формат номера картки! Номер картки повинен складатися з 6 цифр.");
+            }
+        }
 
+        // перевірка формату пін-коду
+        private void ValidatePinCodeFormat(string pinCode)
+        {
+            if (!IsValidPin(pinCode))
+            {
+                throw new ArgumentException("Невірний формат PIN-коду! PIN повинен складатися з 4 цифр.");
+            }
+        }
 
         // валідація номера картки
         private bool IsValidCardNumber(string cardNumber)
@@ -124,7 +122,6 @@ namespace ClassLibrary
         {
             return pinCode.Length == 4 && int.TryParse(pinCode, out _);
         }
-
-
     }
 }
+
