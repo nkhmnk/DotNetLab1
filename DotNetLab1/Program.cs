@@ -1,10 +1,7 @@
 ﻿using ClassLibrary;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace DotNetLab1
 {
@@ -53,47 +50,49 @@ namespace DotNetLab1
 
         private static Account AuthenticateUser() //вхід
         {
-            string cardNumber;
-            string pinCode;
-
-            while (true)
+            string cardNumber = ReadValidCardNumber("Введіть номер картки: ");
+            string pinCode = ReadValidPinCode("Введіть PIN: ");
+            
+            try
             {
-                Console.Write("Введіть номер картки: ");
-                cardNumber = Console.ReadLine();
-
-                if (!IsValidCardNumber(cardNumber))
-                {
-                    Console.WriteLine("Неправильний номер картки");
-                    continue;
-                }
-
-                while (true)
-                {
-                    Console.Write("Введіть PIN: ");
-                    pinCode = Console.ReadLine();
-
-                    if (IsValidPinCode(pinCode))
-                    {
-                        break;
-                    }
-                    else
-                    {
-                        Console.WriteLine("Неправильний PIN-код");
-                    }
-                }
-
-                try
-                {
-                    return Operations.Authenticate(cardNumber, pinCode);
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"Помилка. {ex.Message}");
-                }
+                return Operations.Authenticate(cardNumber, pinCode);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Помилка. {ex.Message}");
+                return null;
             }
         }
 
-        private static bool IsValidCardNumber(string cardNumber) // перевірка карти
+        private static string ReadValidCardNumber(string prompt) // зчитування та перевірка номеру картки
+        {
+            while (true)
+            {
+                Console.Write(prompt);
+                string cardNumber = Console.ReadLine();
+
+                if (IsValidCardNumber(cardNumber))
+                    return cardNumber;
+                
+                Console.WriteLine("Неправильний номер картки");
+            }
+        }
+
+        private static string ReadValidPinCode(string prompt) // зчитування та перевірка PIN-коду
+        {
+            while (true)
+            {
+                Console.Write(prompt);
+                string pinCode = Console.ReadLine();
+
+                if (IsValidPinCode(pinCode))
+                    return pinCode;
+                
+                Console.WriteLine("Неправильний PIN-код");
+            }
+        }
+
+        private static bool IsValidCardNumber(string cardNumber) // перевірка картки
         {
             return Regex.IsMatch(cardNumber, @"^\d{6}$");
         }
@@ -103,132 +102,94 @@ namespace DotNetLab1
             return Regex.IsMatch(pinCode, @"^\d{4}$");
         }
 
-        private static void WithdrawMoney(Account account) // зняття коштів
-        {
-            while (true)
-            {
-                Console.Write("Введіть суму для зняття: ");
-                if (decimal.TryParse(Console.ReadLine(), out decimal withdrawAmount))
-                {
-                    if (Operations.Withdraw(account, withdrawAmount))
-                    {
-                        Console.WriteLine("Зняття пройшло успішно");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Недостатньо коштів");
-                    }
-                    return; 
-                }
-                else
-                {
-                    Console.WriteLine("Невірна сума");
-                }
-            }
-        }
-
-        private static void DepositMoney(Account account) // поповнення
-        {
-            while (true)
-            {
-                Console.Write("Введіть суму для поповнення: ");
-                if (decimal.TryParse(Console.ReadLine(), out decimal depositAmount))
-                {
-                    Operations.Deposit(account, depositAmount);
-                    Console.WriteLine("Поповнення пройшло успішно");
-                    return; 
-                }
-                else
-                {
-                    Console.WriteLine("Невірна сума");
-                }
-            }
-        }
-
-        private static void TransferMoney(Account account) //переказ
-        {
-            while (true)
-            {
-                Console.Write("Введіть номер картки отримувача: ");
-                string recipientCardNumber = Console.ReadLine();
-
-                if (!IsValidCardNumber(recipientCardNumber))
-                {
-                    Console.WriteLine("Неправильний номер картки");
-                    continue; 
-                }
-
-                Console.Write("Введіть суму для переказу: ");
-                if (decimal.TryParse(Console.ReadLine(), out decimal transferAmount))
-                {
-                    try
-                    {
-                        Operations.Transfer(account, recipientCardNumber, transferAmount);
-                        Console.WriteLine("Переказ пройшов успішно");
-                        return;
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine($"Помилка. {ex.Message}");
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("Невірна сума");
-                }
-            }
-        }
-
         private static void RegisterAccount() //реєстрація
         {
             Console.Write("Введіть своє ім'я: ");
             string ownerName = Console.ReadLine();
-            string cardNumber;
+            
+            string cardNumber = ReadValidCardNumber("Введіть номер картки (6 цифр): ");
+            string pinCode = ReadValidPinCode("Введіть PIN-код (4 цифри): ");
+            
+            decimal balance = ReadValidBalance();
 
-            while (true)
+            try
             {
-                Console.Write("Введіть номер картки (6 цифр): ");
-                cardNumber = Console.ReadLine();
-                if (IsValidCardNumber(cardNumber))
-                    break;
-
-                Console.WriteLine("Неправильний номер картки");
+                Operations.RegisterAccount(ownerName, cardNumber, pinCode, balance);
+                Console.WriteLine("Акаунт зареєстровано");
             }
-
-            string pinCode;
-            while (true)
+            catch (Exception ex)
             {
-                Console.Write("Введіть PIN-код (4 цифри): ");
-                pinCode = Console.ReadLine();
-                if (IsValidPinCode(pinCode))
-                    break;
-
-                Console.WriteLine("Неправильний PIN-код");
+                Console.WriteLine($"Помилка. {ex.Message}");
             }
+        }
 
-            decimal balance;
-
+        private static decimal ReadValidBalance() // перевірка балансу
+        {
             while (true)
             {
                 Console.Write("Введіть початковий баланс: ");
-                if (decimal.TryParse(Console.ReadLine(), out balance))
+                if (decimal.TryParse(Console.ReadLine(), out decimal balance))
                 {
-                    break;
+                    return balance;
                 }
                 else
                 {
                     Console.WriteLine("Невірний баланс");
                 }
             }
+        }
 
+        private static void WithdrawMoney(Account account) // зняття коштів
+        {
+            decimal withdrawAmount = ReadValidAmount("Введіть суму для зняття: ");
+            
+            if (Operations.Withdraw(account, withdrawAmount))
+            {
+                Console.WriteLine("Зняття пройшло успішно");
+            }
+            else
+            {
+                Console.WriteLine("Недостатньо коштів");
+            }
+        }
+
+        private static void DepositMoney(Account account) // поповнення
+        {
+            decimal depositAmount = ReadValidAmount("Введіть суму для поповнення: ");
+            
+            Operations.Deposit(account, depositAmount);
+            Console.WriteLine("Поповнення пройшло успішно");
+        }
+
+        private static void TransferMoney(Account account) //переказ
+        {
+            string recipientCardNumber = ReadValidCardNumber("Введіть номер картки отримувача: ");
+            decimal transferAmount = ReadValidAmount("Введіть суму для переказу: ");
+            
             try
             {
-                    Operations.RegisterAccount(ownerName, cardNumber, pinCode, balance);
-                Console.WriteLine("Акаунт зареєстровано");
+                Operations.Transfer(account, recipientCardNumber, transferAmount);
+                Console.WriteLine("Переказ пройшов успішно");
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Помилка. {ex.Message}");
+            }
+        }
+
+        private static decimal ReadValidAmount(string prompt) // перевірка суми
+        {
+            while (true)
+            {
+                Console.Write(prompt);
+                if (decimal.TryParse(Console.ReadLine(), out decimal amount) && amount > 0)
+                {
+                    return amount;
+                }
+                else
+                {
+                    Console.WriteLine("Невірна сума");
+                }
             }
         }
 
