@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\1\u0416\u0438\u0442\u043E\u043C\u0438\u0440\u0441\u044C\u043A\u0430 \u043F\u043E\u043B\u0456\u0442\u0435\u0445\u043D\u0456\u043A\u0430\\Visual Studio\\DotNet\\DotNet Lab1_\u0425\u043E\u043C\u0435\u043D\u043A\u043E\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4966B166-AD9D-4275-B3FC-C935A2AE7B9B}|DotNetLab1\\DotNetLab1.csproj|e:\\1\u0436\u0438\u0442\u043E\u043C\u0438\u0440\u0441\u044C\u043A\u0430 \u043F\u043E\u043B\u0456\u0442\u0435\u0445\u043D\u0456\u043A\u0430\\visual studio\\dotnet\\dotnet lab1_\u0445\u043E\u043C\u0435\u043D\u043A\u043E\\dotnetlab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4966B166-AD9D-4275-B3FC-C935A2AE7B9B}|DotNetLab1\\DotNetLab1.csproj|solutionrelative:dotnetlab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|e:\\1\u0436\u0438\u0442\u043E\u043C\u0438\u0440\u0441\u044C\u043A\u0430 \u043F\u043E\u043B\u0456\u0442\u0435\u0445\u043D\u0456\u043A\u0430\\visual studio\\dotnet\\dotnet lab1_\u0445\u043E\u043C\u0435\u043D\u043A\u043E\\classlibrary\\operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Operations.cs",
+              "DocumentMoniker": "E:\\1\u0416\u0438\u0442\u043E\u043C\u0438\u0440\u0441\u044C\u043A\u0430 \u043F\u043E\u043B\u0456\u0442\u0435\u0445\u043D\u0456\u043A\u0430\\Visual Studio\\DotNet\\DotNet Lab1_\u0425\u043E\u043C\u0435\u043D\u043A\u043E\\ClassLibrary\\Operations.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\Operations.cs",
+              "ToolTip": "E:\\1\u0416\u0438\u0442\u043E\u043C\u0438\u0440\u0441\u044C\u043A\u0430 \u043F\u043E\u043B\u0456\u0442\u0435\u0445\u043D\u0456\u043A\u0430\\Visual Studio\\DotNet\\DotNet Lab1_\u0425\u043E\u043C\u0435\u043D\u043A\u043E\\ClassLibrary\\Operations.cs",
+              "RelativeToolTip": "ClassLibrary\\Operations.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAA4wH8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T13:06:46.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\1\u0416\u0438\u0442\u043E\u043C\u0438\u0440\u0441\u044C\u043A\u0430 \u043F\u043E\u043B\u0456\u0442\u0435\u0445\u043D\u0456\u043A\u0430\\Visual Studio\\DotNet\\DotNet Lab1_\u0425\u043E\u043C\u0435\u043D\u043A\u043E\\DotNetLab1\\Program.cs",
+              "RelativeDocumentMoniker": "DotNetLab1\\Program.cs",
+              "ToolTip": "E:\\1\u0416\u0438\u0442\u043E\u043C\u0438\u0440\u0441\u044C\u043A\u0430 \u043F\u043E\u043B\u0456\u0442\u0435\u0445\u043D\u0456\u043A\u0430\\Visual Studio\\DotNet\\DotNet Lab1_\u0425\u043E\u043C\u0435\u043D\u043A\u043E\\DotNetLab1\\Program.cs",
+              "RelativeToolTip": "DotNetLab1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T12:25:56.965Z",
+              "EditorCaption": ""
             }
           ]
         },
