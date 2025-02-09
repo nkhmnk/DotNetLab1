@@ -48,10 +48,10 @@ namespace DotNetLab1
             }
         }
 
-        private static Account AuthenticateUser() //вхід
+        private static Account AuthenticateUser()
         {
-            int attempts = 0; // Лічильник невдалих спроб
-            const int maxAttempts = 3; // Максимальна кількість спроб
+            int attempts = 0;
+            const int maxAttempts = 3;
 
             while (attempts < maxAttempts)
             {
@@ -77,11 +77,10 @@ namespace DotNetLab1
                 }
             }
 
-            return null; // Повертаємо null, якщо всі спроби не вдалися
+            return null;
         }
 
-
-        private static string ReadValidCardNumber(string prompt) // зчитування та перевірка номеру картки
+        private static string ReadValidCardNumber(string prompt)
         {
             while (true)
             {
@@ -90,12 +89,12 @@ namespace DotNetLab1
 
                 if (IsValidCardNumber(cardNumber))
                     return cardNumber;
-                
+
                 Console.WriteLine("Неправильний номер картки");
             }
         }
 
-        private static string ReadValidPinCode(string prompt) // зчитування та перевірка PIN-коду
+        private static string ReadValidPinCode(string prompt)
         {
             while (true)
             {
@@ -104,29 +103,29 @@ namespace DotNetLab1
 
                 if (IsValidPinCode(pinCode))
                     return pinCode;
-                
+
                 Console.WriteLine("Неправильний PIN-код");
             }
         }
 
-        private static bool IsValidCardNumber(string cardNumber) // перевірка картки
+        private static bool IsValidCardNumber(string cardNumber)
         {
             return Regex.IsMatch(cardNumber, @"^\d{6}$");
         }
 
-        private static bool IsValidPinCode(string pinCode) // перевірка пін-коду
+        private static bool IsValidPinCode(string pinCode)
         {
             return Regex.IsMatch(pinCode, @"^\d{4}$");
         }
 
-        private static void RegisterAccount() //реєстрація
+        private static void RegisterAccount()
         {
             Console.Write("Введіть своє ім'я: ");
             string ownerName = Console.ReadLine();
-            
+
             string cardNumber = ReadValidCardNumber("Введіть номер картки (6 цифр): ");
             string pinCode = ReadValidPinCode("Введіть PIN-код (4 цифри): ");
-            
+
             decimal balance = ReadValidBalance();
 
             try
@@ -140,7 +139,7 @@ namespace DotNetLab1
             }
         }
 
-        private static decimal ReadValidBalance() // перевірка балансу
+        private static decimal ReadValidBalance()
         {
             while (true)
             {
@@ -156,10 +155,10 @@ namespace DotNetLab1
             }
         }
 
-        private static void WithdrawMoney(Account account) // зняття коштів
+        private static void WithdrawMoney(Account account)
         {
             decimal withdrawAmount = ReadValidAmount("Введіть суму для зняття: ");
-            
+
             if (Operations.Withdraw(account, withdrawAmount))
             {
                 Console.WriteLine("Зняття пройшло успішно");
@@ -170,19 +169,19 @@ namespace DotNetLab1
             }
         }
 
-        private static void DepositMoney(Account account) // поповнення
+        private static void DepositMoney(Account account)
         {
             decimal depositAmount = ReadValidAmount("Введіть суму для поповнення: ");
-            
+
             Operations.Deposit(account, depositAmount);
             Console.WriteLine("Поповнення пройшло успішно");
         }
 
-        private static void TransferMoney(Account account) //переказ
+        private static void TransferMoney(Account account)
         {
             string recipientCardNumber = ReadValidCardNumber("Введіть номер картки отримувача: ");
             decimal transferAmount = ReadValidAmount("Введіть суму для переказу: ");
-            
+
             try
             {
                 Operations.Transfer(account, recipientCardNumber, transferAmount);
@@ -194,7 +193,7 @@ namespace DotNetLab1
             }
         }
 
-        private static decimal ReadValidAmount(string prompt) // перевірка суми
+        private static decimal ReadValidAmount(string prompt)
         {
             while (true)
             {
@@ -210,7 +209,7 @@ namespace DotNetLab1
             }
         }
 
-        private static void StartATMOperations(Account account) //меню
+        private static void StartATMOperations(Account account)
         {
             while (true)
             {
