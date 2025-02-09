@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
@@ -15,39 +11,54 @@ namespace ClassLibrary
 
         public Account(string cardNumber, string ownerName, decimal balance, string pinCode)
         {
+            if (string.IsNullOrWhiteSpace(cardNumber) || cardNumber.Length != 6)
+                throw new ArgumentException("Номер картки повинен містити 6 цифр.");
+
+            if (string.IsNullOrWhiteSpace(pinCode) || pinCode.Length != 4)
+                throw new ArgumentException("PIN-код повинен містити 4 цифри.");
+
+            if (balance < 0)
+                throw new ArgumentException("Баланс не може бути від'ємним.");
+
             CardNumber = cardNumber;
             OwnerName = ownerName;
             Balance = balance;
             PinCode = pinCode;
         }
 
-        public bool Authenticate(string pinCode) //вхід
+        public bool Authenticate(string pinCode)
         {
             return PinCode == pinCode;
         }
 
-        public void Deposit(decimal amount) //поповнення
+        public void Deposit(decimal amount)
         {
+            if (amount <= 0)
+                throw new ArgumentException("Сума для поповнення повинна бути більше нуля.");
+
             Balance += amount;
         }
 
-        public bool Withdraw(decimal amount) //зняття
+        public bool Withdraw(decimal amount)
         {
+            if (amount <= 0)
+                throw new ArgumentException("Сума для зняття повинна бути більше нуля.");
+
             if (Balance >= amount)
             {
                 Balance -= amount;
                 return true;
             }
-            return false;
+            throw new InvalidOperationException("Недостатньо коштів для зняття.");
         }
 
-        public void Transfer(Account toAccount, decimal amount) //переказ
+        public void Transfer(Account toAccount, decimal amount)
         {
-            if (Withdraw(amount))
-            {
-                toAccount.Deposit(amount);
-            }
-        }
+            if (toAccount == null)
+                throw new ArgumentNullException(nameof(toAccount), "Отримувач не може бути null.");
 
+            Withdraw(amount);
+            toAccount.Deposit(amount);
+        }
     }
 }

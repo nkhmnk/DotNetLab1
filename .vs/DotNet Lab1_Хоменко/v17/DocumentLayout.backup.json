@@ -3,27 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\koshk\\source\\repos\\Refactors-repository\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|C:\\Users\\koshk\\source\\repos\\Refactors-repository\\classlibrary\\operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4966B166-AD9D-4275-B3FC-C935A2AE7B9B}|DotNetLab1\\DotNetLab1.csproj|c:\\users\\koshk\\source\\repos\\refactors-repository\\dotnetlab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4966B166-AD9D-4275-B3FC-C935A2AE7B9B}|DotNetLab1\\DotNetLab1.csproj|solutionrelative:dotnetlab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|C:\\Users\\koshk\\source\\repos\\Refactors-repository\\classlibrary\\usermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|c:\\users\\koshk\\source\\repos\\refactors-repository\\classlibrary\\usermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\usermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|C:\\Users\\koshk\\source\\repos\\Refactors-repository\\classlibrary\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|c:\\users\\koshk\\source\\repos\\refactors-repository\\classlibrary\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|C:\\Users\\koshk\\source\\repos\\Refactors-repository\\classlibrary\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|c:\\users\\koshk\\source\\repos\\refactors-repository\\classlibrary\\operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|c:\\users\\koshk\\source\\repos\\refactors-repository\\classlibrary\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|C:\\Users\\koshk\\source\\repos\\Refactors-repository\\classlibrary\\automatedtellermachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|c:\\users\\koshk\\source\\repos\\refactors-repository\\classlibrary\\automatedtellermachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F7FD4C1-5FC6-4DC3-A0CA-FA51BBE54394}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\automatedtellermachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UserMenu.cs",
               "DocumentMoniker": "C:\\Users\\koshk\\source\\repos\\Refactors-repository\\ClassLibrary\\UserMenu.cs",
               "RelativeDocumentMoniker": "ClassLibrary\\UserMenu.cs",
@@ -58,11 +58,12 @@
               "RelativeToolTip": "ClassLibrary\\UserMenu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T12:35:25.924Z"
+              "WhenOpened": "2025-02-09T12:35:25.924Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Operations.cs",
               "DocumentMoniker": "C:\\Users\\koshk\\source\\repos\\Refactors-repository\\ClassLibrary\\Operations.cs",
               "RelativeDocumentMoniker": "ClassLibrary\\Operations.cs",
@@ -75,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Bank.cs",
               "DocumentMoniker": "C:\\Users\\koshk\\source\\repos\\Refactors-repository\\ClassLibrary\\Bank.cs",
               "RelativeDocumentMoniker": "ClassLibrary\\Bank.cs",
@@ -83,7 +84,8 @@
               "RelativeToolTip": "ClassLibrary\\Bank.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAmwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T11:35:22.468Z"
+              "WhenOpened": "2025-02-09T11:35:22.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -95,7 +97,8 @@
               "RelativeToolTip": "ClassLibrary\\AutomatedTellerMachine.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAkwC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T11:35:07.466Z"
+              "WhenOpened": "2025-02-09T11:35:07.466Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -107,11 +110,12 @@
               "RelativeToolTip": "ClassLibrary\\Account.cs",
               "ViewState": "AgIAADQAAAAAAAAAAADwvz8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T11:34:08.313Z"
+              "WhenOpened": "2025-02-09T11:34:08.313Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\koshk\\source\\repos\\Refactors-repository\\DotNetLab1\\Program.cs",
               "RelativeDocumentMoniker": "DotNetLab1\\Program.cs",
